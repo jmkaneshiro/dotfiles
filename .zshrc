@@ -1,3 +1,6 @@
+export DOTFILES="${HOME}/dotfiles"
+export DISABLE_MAGIC_FUNCTIONS=true
+export ZSH_AUTOSUGGEST_STRATEGY=(history)
 # loads pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
